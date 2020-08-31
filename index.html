@@ -15,8 +15,7 @@
 	</style>
 </head>
 <body>
-	<div class="container m-0">
-		<!-- Content Header -->
+	<!-- Content Header -->
 		<div class="w-screen h-auto bg-white shadow-xl">
 			<div class="flex justify-center pt-8">
 				<div>
@@ -24,79 +23,62 @@
 					<p id="subop" class="text-lg xl:text-xl lg:text-xl font-mono text-center"></p>
 				</div>
 			</div>
-			<div class="pt-8 pb-4 flex justify-center font-mono">
+			<div class="pt-8 pb-1 flex justify-center font-mono">
 				<div class="px-4 xl:px-16 lg:px-12 md:px-8">
-					<span class="hover:text-blue-600 font-medium hover:font-bold text-lg inline">Articles</span>
+					<span class="text-lg text-blue-400 text-bold border-b-4 border-blue-400 uppercase transition ease-in-out duration-200 p-1">Articles</span>
 				</div>
 				<div class="px-4 xl:px-16 lg:px-12 md:px-8">
-					<span class="hover:text-blue-600 font-medium hover:font-bold text-lg inline">Portfolio</span>
+					<span class="text-lg text-black hover:text-blue-400 text-bold border-b-4 border-transparent hover:border-blue-400 uppercase transition ease-in-out duration-200 p-1">Portfolio</span>
 				</div>
 				<div class="px-4 xl:px-16 lg:px-12 md:px-8">
-					<span class="hover:text-blue-600 font-medium hover:font-bold text-lg inline">About Me</span>
+					<span class="text-lg text-black hover:text-blue-400 text-bold border-b-4 border-transparent hover:border-blue-400 uppercase transition ease-in-out duration-200 p-1">About Me</span>
 				</div>
 			</div>
 		</div>
 
-		<!-- Article -->
-		<div class="mt-8">
-			<a href="#">
-				<div class="h-auto m-auto bg-white shadow-xl px-8 py-8 grid grid-cols-5 w-2/3 rounded-md">
-					<div class="col-span-5 lg:col-span-2 xl:col-span-2">
-						<img src="assets/image/2.jpg" alt="" class="max-w-full h-auto rounded-lg">
-					</div>
-					<div class="col-span-5 lg:col-span-3 xl:col-span-3">
-						<div class="justify-center lg:px-8 xl:px-8">
-							<p class="text-xl font-mono font-bold">Panduan lengkap hijrah dari PHP ke NodeJS</p>
-							<div class="mb-4">
-								<img src="assets/image/calendar.svg" alt="" class="w-4 h-auto inline">
-								<span>Sabtu, 29 Agustus, 2020</span>
+		<!-- Articles -->
+		<div class="grid grid-flow-row grid-cols-3 mt-8">
+			<div class="w-full h-auto col-span-3 lg:col-span-2 xl:col-span-2">
+				<div class="mt-8">
+					<!-- <a href="articles/photopea.html">
+						<div class="m-auto h-auto bg-white shadow-xl px-8 py-8 grid grid-cols-5 w-2/3 rounded-md">
+							<div class="col-span-5 lg:col-span-2 xl:col-span-2rounded-lg">
+								<img src="assets/image/thumbnail/photopea.png" alt="Photopea" class="max-w-full h-auto rounded-lg">
 							</div>
-							<span class="whitespace-pre-wrap">Enggak bro, bercanda. Ini cuma tutorial biasa aja. Kalau masih mau pakai PHP ya silahkan</span>
+							<div class="col-span-5 lg:col-span-3 xl:col-span-3">
+								<div class="justify-center lg:px-8 xl:px-8">
+									<p class="text-xl font-mono font-bold">Photopea. Photoshop KW super tapi gratis!</p>
+									<div class="mb-4">
+										<img src="assets/image/calendar.svg" alt="" class="w-4 h-auto inline">
+										<span>Minggu, 30 Agustus, 2020</span>
+									</div>
+									<span class="whitespace-pre-wrap">Bosen Nge crack terus? Pengen tobat tapi Harga Photoshopnya mahal? Pake Photopea aja</span>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<!-- Article version 2 -->
-		<div class="mt-16 flex flex-col lg:flex-row xl:flex-row justify-center">
-			<div class="h-auto w-2/3 lg:w-1/3 xl:w-1/4 m-auto bg-white shadow-xl rounded-lg block lg:inline-block xl:inline-block mx-4 my-4">
-				<div>
-					<img src="assets/image/dio.jpg" alt="" class="h-auto w-auto rounded-t-lg">
-				</div>
-				<div class="p-4">
-					<span class="font-mono font-bold text-lg">You Were Expecting An Article But It Was Me! Dio!</span>
-					<div class="mb-4">
-						<img src="assets/image/calendar.svg" alt="" class="w-4 h-auto inline">
-						<span>Sabtu, 29 Agustus, 2020</span>
-					</div>
-					<span>MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA </span>
+					</a> -->
+					<div class="m-auto h-auto bg-white shadow-xl px-8 py-8 grid grid-cols-5 w-2/3 rounded-md">
+						<div class="col-span-5 lg:col-span-2 xl:col-span-2rounded-lg">
+							<img src="assets/image/thumbnail/photopea.png" alt="Photopea" class="max-w-full h-auto rounded-lg">
+						</div>
+						<div class="col-span-5 lg:col-span-3 xl:col-span-3">
+							<div class="justify-center lg:px-8 xl:px-8">
+								<p class="text-xl font-mono font-bold">Photopea. Photoshop KW super tapi gratis!</p>
+								<div class="mb-4">
+									<img src="assets/image/calendar.svg" alt="" class="w-4 h-auto inline">
+									<span>Minggu, 30 Agustus, 2020</span>
+								</div>
+								<span class="whitespace-pre-wrap">Bosen Nge crack terus? Pengen tobat tapi Harga Photoshopnya mahal? Pake Photopea aja</span>
+							</div>
+						</div>
+					</div>				
 				</div>
 			</div>
-			<div class="h-auto w-2/3 lg:w-1/3 xl:w-1/4 m-auto bg-white shadow-xl rounded-lg block lg:inline-block xl:inline-block mx-4 my-4">
-				<div>
-					<img src="assets/image/dio.jpg" alt="" class="h-auto w-auto rounded-t-lg">
-				</div>
-				<div class="p-4">
-					<span class="font-mono font-bold text-lg">You Were Expecting An Article But It Was Me! Dio!</span>
-					<div class="mb-4">
-						<img src="assets/image/calendar.svg" alt="" class="w-4 h-auto inline">
-						<span>Sabtu, 29 Agustus, 2020</span>
-					</div>
-					<span>MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA </span>
-				</div>
-			</div>
-			<div class="h-auto w-2/3 lg:w-1/3 xl:w-1/4 m-auto bg-white shadow-xl rounded-lg block lg:inline-block xl:inline-block mx-4 my-4">
-				<div>
-					<img src="assets/image/dio.jpg" alt="" class="h-auto w-auto rounded-t-lg">
-				</div>
-				<div class="p-4">
-					<span class="font-mono font-bold text-lg">You Were Expecting An Article But It Was Me! Dio!</span>
-					<div class="mb-4">
-						<img src="assets/image/calendar.svg" alt="" class="w-4 h-auto inline">
-						<span>Sabtu, 29 Agustus, 2020</span>
-					</div>
-					<span>MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA </span>
+			<div class="w-full h-auto col-span-3 lg:col-span-1 xl:col-span-1">
+				<div class="mt-24 lg:mt-8 xl:mt-8">
+					<img src="assets/image/profile.jpg" alt="" class="m-auto h-auto w-1/3 rounded-full">
+					<p class="text-center text-xl font-serif font-bold mt-4">Irvan Maulana Ahmad</p>
+					<p class="text-center text-base font-sans mx-8">17 yo. Pengacara (Pengangguran banyak acara), Experience using Laravel for a year. Hate CSS So much (bcuz i dont know how to make a responsive website). Tailwind and Bootstrap are my Best Friends. I manage an Instagram account and get paid $10 to $15 per month. So please, Hire me.</p>
 				</div>
 			</div>
 		</div>
@@ -107,7 +89,6 @@
 				<p class="text-center">&copy; 2020 Irvan Maulana Ahmad</p>
 			</div>
 		</div>
-	</div>
 	<script>
 		// some shit so the header text will change everytime website is reloading
 		const opening = ["Hi There!", "You're COOL!!", "Have a Nice day!!", "Love Your Self ❤", "Good Luck!", "Push yourself", "Do it now"];
